@@ -25,7 +25,8 @@ pole = QListWidget()
 
 Golovna_linia.addLayout(fotos_linia)
 Golovna_linia.addLayout(foto_linia)
-#Qlabel
+kartinka = QLabel("катинка")
+foto_linia.addWidget(kartinka)
 foto_linia.addLayout(knopki)
 fotos_linia.addWidget(papka)
 fotos_linia.addWidget(pole)
